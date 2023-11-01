@@ -2,6 +2,8 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    color: #484848;
+    font-family: Circular, "Helvitica Neue", Helvitica, Arial, sans-serif;
 }
 
 .container {
