@@ -143,3 +143,36 @@ article div.amenities ul {
     background: url(../images/pets_friendly.png) 0px/20px no-repeat;
     padding-left: 30px;
 }
+.reviews{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+}
+
+.reviews h2{
+    justify-content: flex-start;
+    font-size: 16px;
+    border-bottom: solid 1px #dddddd;
+    max-height: 20px;
+    min-width: 100% ;
+    padding: 0;
+    padding-bottom: 10px;
+}
+
+.reviews h3, .reviews p {
+    margin-bottom: 0;
+}
+.reviews p{
+    margin-top: 5px;
+}
+.reviews ul{
+    padding:0;
+    margin-top: 0;
+}
+
+.reviews li {
+    font-size: 14px;
+    list-style: none;
+    text-align: left;
+}
