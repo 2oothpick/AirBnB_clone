@@ -4,9 +4,11 @@
     width: 100%;
     border: 1px #DDDDDD solid;
     border-radius: 4px;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    box-sizing: border-box;
 }
 
 button{
@@ -79,10 +81,13 @@ button:hover{
 
 .popover ul {
     margin-bottom: 20px;
+    font-size: 14px;
 }
 
 .popover h2{
     margin:0;
+    font-size: 16px;
+    padding: 0;
 }
 
 .popover li{
