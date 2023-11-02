@@ -65,7 +65,7 @@ h2 {
 }
 
 .information>div {
-    width: 100px;
+    width: 110px;
     display: flex;
     justify-content: center;
     align-items: flex-end;
@@ -76,7 +76,7 @@ h2 {
 }
 
 .max_guest div, .number_rooms div, 
-.number_bathrooms
+.number_bathrooms div
 {
     margin-bottom: 5px;
 }
@@ -180,4 +180,19 @@ article div.amenities ul {
     font-size: 14px;
     list-style: none;
     text-align: left;
+}
+
+.price_by_night:hover,
+.price_by_night:focus {
+  background-color: rgb(195, 212, 223);
+  transform: scale(1.1);
+  font-weight: bold;
+  border: 2px dashed;
+  transition: 0.2s ease-in-out;
+}
+
+article:hover,
+article:focus {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  transition: 0.2s ease-in-out;
 }
