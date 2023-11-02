@@ -45,6 +45,7 @@ button:hover{
 }
 
 .locations .show, .amenities .show{
+    flex:1;
     padding: 15px;
 }
 
